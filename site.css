@@ -107,14 +107,14 @@ body {
     justify-content: space-between;
 }
 
-#projects {
+#projects, #projectTech {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
 }
 
-#projects article {
+#projects #projectTech article {
     padding: 1em;
     border-radius: 25px;
 }
