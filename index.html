@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>Nabil's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="/site.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/bootstrap.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <nav style="z-index: 1">
         <a href="#aboutMe">About Me</a>
@@ -28,7 +32,8 @@
             <p></p><ul id="skill-list-1">
                 <li>C#</li>
                 <li>ASP.NET</li>
-                <li>Agile/Scrum</li>
+                <li>Agile / Scrum</li>
+                <li>Source Control / Github</li>
                 <li>Test Driven Development (TDD)</li>
                 <li>Object Oriented Programming (OOP)</li>
             </ul>
@@ -38,48 +43,65 @@
                 <li>MVC5</li>
                 <li>Entity Framework 6</li>
                 <li>JavaScript</li>
+                <li>Bootstrap 4</li>
             </ul><p>
             </section>
 
             <section id="myProjects"><h2>Projects</h2><p>Here are a few projects that I have been working on since the start of We Can Code IT's C#/.NET program.
             </p>
             <div id="projects">
-                <article>
+                <article class="col-md-4">
                     <h3><a href="https://github.com/2020-Spring-Cohort/final-project-team-tv-quarantv">QuaranTV</h3>
                     <img src="./images/tv.jpg"></a>
                     <h5><p>Web application that allows users to create and manage backlogs for TV shows that they would like to watch, as well as share reviews and comments with others.</p></h5>
-                    <h6><p>C#, ASP.NET, Entity, HTML/CSS, JavaScript</p></h6>
                 </article>
-                <article>
+                <article class="col-md-4">
                     <h3><a href="https://github.com/2020-Spring-Cohort/module-5-album-collection-theremen">Theremen</h3>
                     <img src="./images/theremen.jpg"></a>
                     <h5><p>Single page web application designed to help users track their music collections based on artists, albums and songs.</p></h5>
-                    <h6><p>C#, ASP.NET, Entity, HTML/CSS, JavaScript</p></h6>
                 </article>
-                <article>
+                <article class="col-md-4">
                     <h3><a href="https://github.com/2020-Spring-Cohort/click-counter-anmesk">Click Counter</h3>
                     <img src="./images/cookie.jpg"></a>
                     <h5><p>Cookie Clicker clone with core gameplay functionality implemented alongside a simple front-end layout.</p></h5>
+                </article>
+            </div>
+            <div id="projectTech">
+                <article class="col-md-4">
+                    <h6><p>C#, ASP.NET, Entity, HTML/CSS, JavaScript</p></h6>
+                </article>
+                <article class="col-md-4">
+                    <h6><p>C#, ASP.NET, Entity, HTML/CSS, JavaScript</p></h6>
+                </article>
+                <article class="col-md-4">
                     <h6><p>HTML/CSS, JavaScript</p></h6>
                 </article>
             </div>
             <div id="projects">
-                <article>
+                <article class="col-md-4">
                     <h3><a href="https://github.com/Kashmellow/mlp">MLP Review Site</h3>
                     <img src="./images/pony.jpg"></a>
                     <h5><p>Site catering to MLP themed products in which people can create, read, update and delete reviews.</p></h5>
-                    <h6><p>C#, MVC, Entity, HTML/CSS</p></h6>
                 </article>
-                <article>
+                <article class="col-md-4">
                     <h3><a href="https://github.com/joshuatreeee/UniversityClinicHospital">University Clinic Hospital</h3>
                     <img src="./images/hospital.jpg"></a>
                     <h5><p>Back-end clinic interface for accessing employee information and payrolls, in addition to assigning tasks to medical employees.</p></h5>
-                    <h6><p>C#</p></h6>
                 </article>
-                <article>
+                <article class="col-md-4">
                     <h3><a href="https://github.com/TShaw516/VirtualPetProject">Virtual Pet Shelter</h3>
                     <img src="./images/pet.jpg"></a>
                     <h5><p>Tamagotchi-inspired game that allows users to interact with organic or robotic pets in several ways.</p></h5>
+                </article>
+            </div>
+            <div id="projectTech">
+                <article class="col-md-4">
+                    <h6><p>C#, MVC, Entity, HTML/CSS</p></h6>
+                </article>
+                <article class="col-md-4">
+                    <h6><p>C#</p></h6>
+                </article>
+                <article class="col-md-4">
                     <h6><p>C#</p></h6>
                 </article>
             </div>
@@ -92,9 +114,8 @@
             <p>Email: place@holder.com</p>
             <p>Phone: (555) 555-5555</p></section>
 
-        <a class="btn btn-primary">
-            <h2><a href="#" class="fa fa-github" id="blah"></a>
-            <a href="#" class="fa fa-linkedin" id="blah"></a></h2>
+            <h2><a href="https://github.com/anmesk" class="fa fa-github" id="blah"></a>
+            <a href="https://www.linkedin.com/in/nabil-meskaouni-b63818181/" class="fa fa-linkedin" id="blah"></a></h2>
         </footer>
     </body>
 </html>
